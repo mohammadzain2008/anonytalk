@@ -1,0 +1,96 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.container{
+    margin-left: 500px;
+    margin-right: 500px;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.msg{
+    border: 1.3px solid #900C3F;
+    border-radius: 25px;
+    text-align: left;
+    margin-bottom: 10px;
+    transition: 1s ease;
+    box-shadow: 3px 4px 5px 6px rgb(223, 223, 223);
+
+}
+
+.msg:hover{
+    margin-left: -100px;
+    margin-right: -100px;
+}
+
+.tle{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    font-size: 23px;
+    background: -webkit-linear-gradient(right, #581845, #900C3F, #C70039, #FF5733);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.date{
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 10px;
+    font-weight: 300;
+    margin-left: 10px;
+}
+
+.post{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    word-spacing: 5px;
+    text-align: justify;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 15px;
+    background: -webkit-linear-gradient(right, #581845, #900C3F, #C70039);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    
+}
+
+.lnk{
+    text-decoration: underline;
+    color: #900C3F;
+}
+
+#likee{
+    background: linear-gradient(to right, #900C3F, #C70039, #FF5733);
+    border-radius: 100%;
+    border-bottom-left-radius: 25px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    padding: 7px 9px 7px 9px;
+    border: none;
+    cursor: pointer;
+}
+
+svg{
+    width: 20px;
+    height: 20px;
+}
+
+span{
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(183, 183, 183);
+}
+
+#likee:disabled{
+    background: linear-gradient(to right, #434343, #6e6e6e, #eeeded);
+    cursor: not-allowed;
+}

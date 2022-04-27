@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.content {
+    margin-top: 30px;
+}
+
+.title_ {
+    text-align: center;
+    font-size: 72px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: -webkit-linear-gradient(right, #581845, #900C3F, #C70039, #FF5733);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: anim 1s;
+}
+@keyframes anim {
+    from{
+        margin-left: -10000px;
+    }
+    to{
+        margin-left: 0px;
+    }
+}
+.subtitle_{
+    text-align: center;
+    font-size: 27px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px 2px gray;
+    animation: sub_anim 1s;
+}
+@keyframes sub_anim{
+    from{
+        margin-right: -10000px;
+        font-size: 1px;
+    }
+    to{
+        margin-right: 0px;
+        font-size: 27px;
+    }
+}
+.qns{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 25px;
+    font-family: sans-serif;
+    text-shadow: 1.5px 1.5px 1.5px gray;
+}
+
+.q{
+    width: 50%;
+    margin-left: 23%;
+    text-align: justify;
+    line-height: 25px;
+    animation: animate 2s;
+}
+@keyframes animate {
+    from{
+        opacity: 0%;
+    }
+    to{
+        opacity: 100%;
+    }
+}
+.ans{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    animation: anim_2 1s;
+}
+
+@keyframes anim_2 {
+    0%{
+        transform: rotate(120deg);
+    }
+    50%{
+        transform: rotate(240deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.footer{
+    margin-top: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    background-image: linear-gradient(to right,#581845, #900C3F, #C70039);
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+
+.footer:hover{
+    font-size: 21px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
